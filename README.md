@@ -1,6 +1,6 @@
 # znp-rs
 
-This crate provides an interface between Rust and ZNP (Zigbee Network Processor) CC2531, CC13x2, and CC26x2 Texas Instruments Zigbee-Stack 3.0 (Z-Stack) based radios.
+This crate provides an interface between Rust and the [ZNP (Zigbee Network Processor) Interface](https://software-dl.ti.com/simplelink/esd/plugins/simplelink_zigbee_sdk_plugin/1.60.01.09/exports/docs/zigbee_user_guide/html/zigbee/developing_zigbee_applications/znp_interface/znp_interface.html) used by CC2531, CC13x2, and CC26x2 Texas Instruments Zigbee-Stack 3.0 (Z-Stack) based radios.
 
 > `no_std` note: At the moment the library is designed for use running on a host with the Rust std library available, and assumes it's communicating over serial - whether that's USB serial, a COM port, TCP serial, or something else. In the future I plan to add `no_std` support for embedded use.
 
